@@ -28,13 +28,39 @@
         font-size: 22px;
     }
 
-    .selecao-de-personagens .personagem-grande{
+    .personagem-jogador-2{
         display: none;
+    }
+
+    .selecao-de-personagens .personagem-grande{
+        position: absolute;
+        width: 50%;
+        bottom: 30px;
+        height: 50vh;
+    }
+
+    .selecao-de-personagens .personagem-grande img{  
+    width: auto;
+    height: 40vh;  
+    }
+
+    .selecao-de-personagens .personagem-grande .nome::before{
+        height: 15px;
+        bottom: -5px;
+    }
+
+    .selecao-de-personagens .personagem-grande .nome h2{
+        font-size: 27px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens .personagem{
+        width: 25%;
+        height: 80px;
     }
 }
 
 @media(max-width: 360){
     .cabecalho .titulo{
         font-size: 19px;
-    }
+    }  
 }
