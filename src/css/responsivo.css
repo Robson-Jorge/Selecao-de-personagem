@@ -35,7 +35,7 @@
     .selecao-de-personagens .personagem-grande{
         position: absolute;
         width: 50%;
-        bottom: 30px;
+        bottom: 15px;
         height: 50vh;
     }
 
@@ -46,7 +46,7 @@
 
     .selecao-de-personagens .personagem-grande .nome::before{
         height: 15px;
-        bottom: -5px;
+        bottom: -2px;
     }
 
     .selecao-de-personagens .personagem-grande .nome h2{
@@ -54,8 +54,8 @@
     }
 
     .selecao-de-personagens .lista-de-personagens .personagem{
-        width: 25%;
-        height: 80px;
+        width: 70px;
+        height: 70px;
     }
 }
 
